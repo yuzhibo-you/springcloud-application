@@ -8,6 +8,13 @@ spring:
     url: jdbc:mysql://localhost:3306/test04
     username: root
     password: 123456
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: woniushop_group
+feign:
+  hystrix:
+    enabled: false
 
 mybatis:
   type-aliases-package: com.woniuxy.shop.commons.entity.Product
@@ -22,7 +29,7 @@ eureka:
     prefer-ip-address: true
 
 server:
-        port: 8088
+        port: 8080
   
 management:
   endpoints:
@@ -41,6 +48,12 @@ spring:
     url: jdbc:mysql://localhost:3306/test04
     username: root
     password: 123456
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: woniushop_group
+  hystrix:
+    enabled: false
 
 mybatis:
   type-aliases-package: com.woniuxy.shop.commons.entity.Product
