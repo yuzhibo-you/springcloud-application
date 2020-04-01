@@ -1,5 +1,5 @@
 spring:
-  profiles: product-model8080
+  profiles: product-model8088
   application:
     name: woniuxy-shop-productmodel
   datasource:
