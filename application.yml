@@ -1,5 +1,5 @@
 spring:
-  profiles: product-model8088
+  profiles: product-model8080
   application:
     name: woniuxy-shop-productmodel
   datasource:
@@ -22,7 +22,7 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 8080
+        port: 8088
   
 management:
   endpoints:
